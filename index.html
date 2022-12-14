@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API interact</title>
+</head>
+<body>
+    <input type="text" id="fn" placeholder="FirstName filter">
+    <input type="text" id="ln" placeholder="LastName filter">
+
+    <button onclick="GetData()">Get Data</button>
+    <table border="1" style="border-collapse: collapse">
+        <thead>
+            <tr style="text-align: center">
+                <th>id</th>
+                <th>first_name</th>
+                <th>last_name</th>
+                <th>email</th>
+                <th>gender</th>
+                <th>ip_address</th>
+            </tr>
+        </thead>
+
+        <tbody id="content" style="text-align: center">
+            <tr>
+                <!-- <td>id</td>
+                <td>first_name</td>
+                <td>last_name</td>
+                <td>email</td>
+                <td>gender</td>
+                <td>ip_address</td> -->
+            </tr>
+        </tbody>
+    </table>
+    <script src="./index.js"></script>
+</body>
+</html>
